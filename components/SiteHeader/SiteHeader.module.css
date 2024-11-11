@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin: -3px -8px 0 -8px;
+  padding: 0 8px 5px 8px;
+  border-bottom: 2px solid #818285;
+}
+
+.container>* {
+  margin-left: 25px;
+}
+
+.cart {
+  position: relative;
+}
+
+.cartCount {
+  position: absolute;
+  top: -8px;
+  right: -15px;
+  width: 20px;
+  height: 20px;
+  background-color: #d25ca1;
+  border-radius: 50%;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}

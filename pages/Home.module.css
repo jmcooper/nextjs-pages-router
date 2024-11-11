@@ -1,0 +1,61 @@
+.heroImage {
+  position: relative;
+  height: 200px;
+  margin: 0 -8px;
+  overflow: hidden;
+}
+
+.heroImage img {
+  max-height: 200px;
+  width: auto;
+  object-fit: cover;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 25px;
+  border-top: 2px solid #888;
+  border-bottom: 2px solid #888;
+  padding: 10px 100px;
+}
+
+.cta>* {
+  margin-left: 10px !important;
+}
+
+.ctaText {
+  font-size: 28px;
+  display: flex;
+  flex-grow: 4;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ctaText em {
+  font-style: normal;
+  color: #d25ca1;
+}
+
+.ctaSubText {
+  margin-top: 5px;
+  font-size: 24px;
+}
+
+.ctaText button {
+  margin-top: 10px;
+  width: 200px;
+}
+
+.soundwavesImage {
+  position: relative;
+  margin: 0 -8px;
+  overflow: hidden;
+}
+
+.soundwavesImage img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
